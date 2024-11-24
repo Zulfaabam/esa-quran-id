@@ -11,7 +11,9 @@ export default function Index() {
         alignItems: 'center',
       }}
     >
-      <ThemedText>Test 1</ThemedText>
+      <ThemedText style={{ fontFamily: 'Poppins_400Regular' }}>
+        Test 1
+      </ThemedText>
     </ThemedView>
   );
 }
